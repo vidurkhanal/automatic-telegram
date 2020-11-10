@@ -4,15 +4,20 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "watch":"tsc -w",
-    "dev":"nodemon .",
+    "watch": "tsc -w",
+    "dev": "nodemon .",
     "start": "node ."
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/node": "^14.14.7",
     "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
   }
 }
